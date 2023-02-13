@@ -61,7 +61,7 @@ public class VotingAppSteps {
 	public void user_click_on_reset_button() {
 		AppPage.clickResetButton();
 		String result=AppPage.getResultReset();
-		Assert.assertEquals("Cats - 0 | Dogs - 1", result);
+		Assert.assertEquals("Cats - 0 | Dogs - 0", result);
 		
 	}
 }
